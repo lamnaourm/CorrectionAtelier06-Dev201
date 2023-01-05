@@ -9,6 +9,23 @@ routes.get("/all", (req, res) => {
   });
 });
 
+
+routes.get('/actors/:filmname', (req, res) => {
+
+});
+
+routes.get('/director/:filmname', (req, res) => {
+
+});
+
+routes.get('/listCategorie/:category', (req, res) => {
+
+});
+
+routes.get('/:year1/:year2', (req, res) => {
+
+});
+
 routes.post("/add", (req, res) => {
   const movieModel = new movieModel(req.body);
 
