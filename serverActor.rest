@@ -1,0 +1,34 @@
+GET http://localhost:3000/actor/all
+
+###
+GET http://localhost:3000/actor/names
+
+###
+GET http://localhost:3000/actor/movies
+
+###
+POST http://localhost:3000/actor/add
+Content-Type: application/json
+
+{
+    "name": "Adam sdqd",
+    "birthname": "sdsdsd",
+    "birthdate": "1988-09-09",
+    "birthplace": "tetouan"
+}
+
+###
+PUT http://localhost:3000/actor/update/Adam sdqd
+Content-Type: application/json
+
+{
+    "name": "w<xw<xw",
+    "birthname": "sabvbbv",
+    "birthdate": "1988-09-09",
+    "birthplace": "rabat"
+}
+
+
+###
+DELETE http://localhost:3000/actor/delete/w<xw<xw
+

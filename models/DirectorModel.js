@@ -8,4 +8,4 @@ const DirectorSchema = new Schema({
     birthplace: String
 }, {collection: "directors"})
 
-module.exports = mongoose.model("actors", DirectorSchema, "directors");
+module.exports = mongoose.model("directors", DirectorSchema, "directors");
